@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Titre": "Germinal",
+        "Disponibilité":true,
+        "prix": 6
+    }, 
+    {
+        "id": 2,
+        "Titre": "A la recherche du temps perdu",
+        "Disponibilité":true,
+        "prix": 5
+    },
+    {
+        "id": 3,
+        "Titre": "Pour qui sonne le glas",
+        "Disponibilité":false,
+        "prix": 5.49
+    },
+    {
+        "id": 4,
+        "Titre": "Pour y voir clair",
+        "Disponibilité":true,
+        "prix": 9.60
+    },
+    {
+        "id": 5,
+        "Titre": "Maigret et la veuve de St Pierre",
+        "Disponibilité":true,
+        "prix": 2.91
+    }
+]
