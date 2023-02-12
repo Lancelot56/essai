@@ -1,40 +1,40 @@
 [
     {
         "id": 1,
-        "nom": "Ampoule LED",
+        "Nom": "Ampoule LED",
         "Description": "éclairage à 100 m ",
         "Disponibilité":true,
-        "prix": 60,
-        "categorie": "Optiques de luxe"
+        "Prix": 60,
+        "Categorie": "Optiques de luxe"
     }, 
     {
         "id": 2,
-        "nom": "Plaquettes de frein (x4)",
+        "Nom": "Plaquettes de frein (x4)",
         "Description": "Qualité de freinage par tout temps ",
         "Disponibilité":true,
-        "prix": 50,
-        "categorie": "Freinage"
+        "Prix": 50,
+        "Categorie": "Freinage"
     },
     {
         "id": 3,
-        "nom": "Ampoule boîte à gants",
+        "Nom": "Ampoule boîte à gants",
         "Description": "Pour y voir clair",
         "Disponibilité":false,
-        "prix": 5.49,
-        "categorie": "Optiques"
+        "Prix": 5.49,
+        "Categorie": "Optiques"
     },
     {
         "id": 4,
-        "nom": "Liquide de frein",
+        "Nom": "Liquide de frein",
         "Disponibilité":true,
-        "prix": 9.60,
-        "categorie": "Freinage"
+        "Prix": 9.60,
+        "Categorie": "Freinage"
     },
     {
         "id": 5,
-        "nom": "Balai d'essuie-glace",
+        "Nom": "Balai d'essuie-glace",
         "Description": "Qualité essuyage au top. Longueur 550 mm. ",
         "Disponibilité":true,
-        "prix": 29.10
+        "Prix": 29.10
     }
 ]

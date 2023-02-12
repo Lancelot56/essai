@@ -6,7 +6,7 @@ fetch(url)
   })
   .then(data => {
 
-    let OCM = data;
+    let pieces = data;
 
     var output="";
 
@@ -14,14 +14,14 @@ fetch(url)
     output += `
   
     <ul>
-                <li>Titre: ${ OCM.results[i].title}</li>
-                <li>Année: ${ OCM.results[i].year}</li>
-                <li>Genre(s): ${ OCM.results[i].genres}</li>
-                <li>Votes: ${ OCM.results[i].votes}</li>
-                <li>Score IMDB: ${ OCM.results[i].imdb_score}</li>
-                <div><img src=${OCM.results[i].image_url}</div>
+                <li>Titre: ${ pieces[i].nom}</li>
+                <li>Année: ${ pieces.results[i].Description}</li>
+                <li>Genre(s): ${ pieces.results[i].Disponibilite}</li>
+                <li>Votes: ${ pieces.results[i].Prix}</li>
+                <li>Score IMDB: ${ pieces.results[i].Categories}</li>
+                <div><img src</div>
             </ul>
         `;
     };
-    document.getElementById("film").innerHTML = output;
+    document.getElementById("pieces").innerHTML = output;
   })
