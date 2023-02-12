@@ -28,5 +28,11 @@
         "Titre": "Maigret et la veuve de St Pierre",
         "Disponibilité":true,
         "prix": 2.91
+    },
+    {
+        "id": 6,
+        "Titre": "L'horloger de St Paul",
+        "Disponibilité":true,
+        "prix": 5.91
     }
 ]
